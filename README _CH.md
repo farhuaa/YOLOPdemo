@@ -1,3 +1,5 @@
+本文将删减后的数据集上传，本人训练使用。
+
 <div align="left">   
 
 ## You Only :eyes: Once for Panoptic ​ :car: Perception
