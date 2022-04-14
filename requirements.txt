@@ -4,7 +4,7 @@ yacs
 Cython
 matplotlib>=3.2.2
 numpy>=1.18.5
-opencv-python==4.1.2.30
+opencv-python>=4.1.2
 Pillow
 PyYAML>=5.3
 scipy>=1.4.1
@@ -13,5 +13,5 @@ seaborn
 prefetch_generator
 imageio
 scikit-learn
-torch==1.7.0
-torchvision==0.8.0
+torch>=1.7.0
+torchvision>=0.8.0
