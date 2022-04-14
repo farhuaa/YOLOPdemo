@@ -50,10 +50,10 @@ _C.LOSS.LL_IOU_GAIN = 0.2 # lane line iou loss gain
 
 # DATASET related params  #'/home/zwt/bdd/bdd100k/images/100k'
 _C.DATASET = CN(new_allowed=True)
-_C.DATASET.DATAROOT = '/home/datasets/images'       # the path of images folder
-_C.DATASET.LABELROOT = '/home/datasets/det_annotations'      # the path of det_annotations folder
-_C.DATASET.MASKROOT = '/home/datasets/det_annotations'                # the path of da_seg_annotations folder
-_C.DATASET.LANEROOT = '/home/datasets/ll_seg_annotations'               # the path of ll_seg_annotations folder
+_C.DATASET.DATAROOT = 'datasets/images'       # the path of images folder
+_C.DATASET.LABELROOT = 'datasets/det_annotations'      # the path of det_annotations folder
+_C.DATASET.MASKROOT = 'datasets/det_annotations'                # the path of da_seg_annotations folder
+_C.DATASET.LANEROOT = 'datasets/ll_seg_annotations'               # the path of ll_seg_annotations folder
 _C.DATASET.DATASET = 'BddDataset'
 _C.DATASET.TRAIN_SET = 'train'
 _C.DATASET.TEST_SET = 'val'
