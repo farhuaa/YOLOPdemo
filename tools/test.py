@@ -1,6 +1,6 @@
 import argparse
 import os, sys
-BASE_DIR = 'weights/End-to-end.pth'
+BASE_DIR = ['weights/End-to-end.pth']
 sys.path.append(BASE_DIR)
 
 import pprint
